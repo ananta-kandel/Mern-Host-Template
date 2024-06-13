@@ -30,4 +30,8 @@ services:
     #   - "80:5173"
     # depends_on:
     #   - mongo
+  nginx:
+    build: .
+    ports:
+      -"80:80"
     
